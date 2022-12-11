@@ -1,7 +1,7 @@
 Stop CloudFlare Bypass ModSecurity
 ModSecurity rules to stop attackers from bypassing Cloudflare 
 
-This ruleset is intended to prevent a threat actor from bypassing Cloudflare
+This ruleset is intended to prevent a threat actor from bypassing Cloudflare <br>
 DISCLAIMER: This only provides basic protection against Cloudflare bypass, it will not prevent all bypass attempts
 
 Installation is very straight forward
