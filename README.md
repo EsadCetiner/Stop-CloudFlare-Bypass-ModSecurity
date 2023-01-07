@@ -17,3 +17,6 @@ Installation is very straight forward
 4. Include the rule file within ModSecurity ``Include 860-CloudflareBypass.conf``
 
 5. Reload your web server (Restart if you are using Nginx)
+
+I strongly recommend creating a custom Transform rule to make it harder to bypass Cloudflare, by default these rules only check for common Cloudflare headers
+Once you've created a custom Transform rule add it to rule ID 860007
